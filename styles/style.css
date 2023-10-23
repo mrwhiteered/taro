@@ -262,5 +262,203 @@ font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 40px;
+margin-bottom: 50px;
 }
+
+
+/* DropDownText */
+
+.DDT__container {
+    
+   
+  }
+  
+  .DDTButton {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+  }
+  
+  .dropdown-text {
+    
+    border: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .dropdown-text.showDDT {
+    max-height: none;
+  }
+  
+  .dropDown__img {
+    
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .dropDown__img.rotate {
+    transform: rotate(180deg);
+  }
+  .someText{
+    align-self: flex-start;
+  }
+
+  .drive__name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text__drive{
+    color: #323232;
+
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+padding-top: 20px;
+
+max-width: 1170px;
+  }
+  .title__ofDrive{
+    color: #323232;
+
+font-family: Arial;
+font-size: 27px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 100%;
+  }
+
+  .item__drive{
+    border-bottom: 1px solid #323232;
+   margin-bottom: 40px;
+   padding-bottom: 40px;
+  }
+  .testdrive{
+    margin-bottom: 150px;
+  }
+ 
+
+
+  .title__sub{
+    color: #323232;
+
+font-family: Arial;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 28px;
+  }
+  .sub__content_title{
+    color: #323232;
+
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+margin-bottom: 40px;
+  }
+  .sub__content_title strong{
+    color: #323232;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+  }
+  .sub__right{
+    max-width: 600px;
+  }
+  .sub__left{
+    max-width: 600px;
+  }
+  .sub__img{
+    width: 100%;
+  }
+  .name__sub{
+    border-radius: 15px;
+border: 1px solid #404040;
+padding: 20px 30px;
+background: transparent;
+width: 100%;
+text-align: center;
+color: #404040;
+
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+margin-bottom: 10px;
+  }
+  .submit__btn{
+    border-radius: 15px;
+    color: #FFF;
+
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+width: 100%;
+padding: 18px 193px;
+margin-top: 20px;
+line-height: normal;
+background: linear-gradient(90deg, #439CFB 7.15%, #F187FB 105.21%);
+  }
+
+  .sub__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .subscribe{
+    padding-bottom: 150px;
+  }
+
+  .container__footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #323232;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .footer__text{
+    color: #323232;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 30px */
+  }
+  .footer__text_1{
+    margin-bottom: 10px;
+  }
+
+  .footer__text_3{
+    color: #323232;
+
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+margin-right: 160px;
+  }
+
+  .footer__link{
+    color: #323232;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+text-decoration-line: underline;
+  }
