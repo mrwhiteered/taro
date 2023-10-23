@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../img/back2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    background-color: rgba(255, 255, 255, 0.15);  
+
+    padding-top: 205px;
+    padding-left: 40px;
+    padding-bottom: 322px;
+}
+.title{
+    color: #FFF;
+font-family: El Messiri;
+}
+.text{
+    color: #FFF;
+font-family: Arial;
+}
+.title__main{
+    font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 95px; 
+text-align: left;
+
+margin-bottom: 20px;
+}
+.sub__title{
+    font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+margin-bottom: 40px;
+}
+.btn{
+    border-radius: 15px;
+    color: #FFF;
+
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(90deg, #439CFB 7.15%, #F187FB 105.21%);
+padding: 18px 84px;
+
+}
+body{
+    background: linear-gradient(92deg, #DDD3DA 7.31%, #EDC7DA 40.26%, #DDD4DF 68.15%, #A7E3E7 98.27%);
+}
+.about{
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+.container__about{
+    border-radius: 20px;
+background: rgba(255, 255, 255, 0.40);
+backdrop-filter: blur(20px);
+padding: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.about__left{
+    max-width: 600px;
+}
+.about__right{
+    max-width: 600px;
+}
+.regular__text{
+    margin-bottom: 40px;
+    color: #323232;
+font-family: Arial;
+font-size: 25px;
+text-align: left;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 30px */
+}
+.regular__text_last{
+margin-bottom: 0;
+}
+.about__img{
+    border-radius: 20px;
+background: #D9D9D9;
+}
+
+
+.video{
+    margin-bottom: 150px;
+}
+
+.container__video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__black{
+    color: #323232;
+
+font-family: Arial;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+margin-bottom: 44px;
+max-width: 600px;
+}
+
+.video__text{
+    color: #323232;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 30px */
+max-width: 600px;
+}
+.yt{
+    border-radius: 20px;
+background: #D9D9D9;
+width: 680px;
+height: 400px;
+}
+
+.community{
+    margin-bottom: 150px;
+}
+.container__community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    border-radius: 20px;
+background: rgba(255, 255, 255, 0.40);
+backdrop-filter: blur(20px);
+}
+.community__left{
+    max-width: 600px;
+    padding-top: 113px;
+    padding-bottom: 148px;
+}
+.community__right{
+    max-width: 600px;
+}
+
+.com__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    
+}
+.community__img{
+    width: 100%;
+    
+}
+.community__img_last{
+ vertical-align: bottom;
+}
+
+.title__team{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* slidee section TEam */
+
+.team__name{
+    color: #323232;
+margin-bottom: 10px;
+font-family: Arial;
+font-size: 27px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.team__text{
+    color: #323232;
+
+text-align: center;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.controlBtn{
+    background: transparent;
+    border: none;
+}
+.team__item{
+   width: 25%;
+   padding-right: 53px;
+}
+
+.team__img{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.team__prof{
+    margin-bottom: 20px;
+}
+.team__list{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    
+}
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.team__list {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.prev__btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.next__btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.container__team{
+    margin-bottom: 150px;
+}
+
+.drive__title{
+    color: #323232;
+
+font-family: Arial;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 40px;
+}
